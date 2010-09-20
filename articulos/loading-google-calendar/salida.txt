@@ -1,0 +1,40 @@
+--- Request Iniciado ---
+chunk numero: 0
+chunk numero: 1
+chunk numero: 2
+chunk numero: 3
+chunk numero: 4
+--- Request Finalizado ---
+
+Calendario:
+{ version: '1.0'
+, encoding: 'UTF-8'
+, feed: 
+   { xmlns: 'http://www.w3.org/2005/Atom'
+   , 'xmlns$openSearch': 'http://a9.com/-/spec/opensearchrss/1.0/'
+   , 'xmlns$gCal': 'http://schemas.google.com/gCal/2005'
+   , 'xmlns$gd': 'http://schemas.google.com/g/2005'
+   , id: { '$t': 'http://www.google.com/calendar/feeds/jgqs3n5kh7d327jq6bgok30klo%40group.calendar.google.com/public/basic' }
+   , updated: { '$t': '2010-09-19T15:56:10.000Z' }
+   , category: [ [Object] ]
+   , title: { '$t': 'nodejs.es', type: 'text' }
+   , subtitle: 
+      { '$t': 'Calendario P\u00fablico usado como ejemplo de conexi\u00f3n utilizando un cliente HTTP.'
+      , type: 'text'
+      }
+   , link: [ [Object], [Object], [Object], [Object] ]
+   , author: [ [Object] ]
+   , generator: 
+      { '$t': 'Google Calendar'
+      , version: '1.0'
+      , uri: 'http://www.google.com/calendar'
+      }
+   , 'openSearch$totalResults': { '$t': 3 }
+   , 'openSearch$startIndex': { '$t': 1 }
+   , 'openSearch$itemsPerPage': { '$t': 25 }
+   , 'gCal$timezone': { value: 'America/Argentina/Buenos_Aires' }
+   , 'gCal$timesCleaned': { value: 0 }
+   , 'gd$where': { valueString: '' }
+   , entry: [ [Object], [Object], [Object] ]
+   }
+}
